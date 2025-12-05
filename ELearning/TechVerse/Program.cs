@@ -1,10 +1,19 @@
 using Microsoft.EntityFrameworkCore;
-
+using TechVerse.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// --- DATABASE CONFIGURATION (Added) ---
+// 1. Get the connection string from appsettings.json
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+// 2. Register ApplicationDbContext with SQL Server
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(connectionString));
+// --------------------------------------
 
 var app = builder.Build();
 
@@ -27,6 +36,5 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
-
 
 app.Run();

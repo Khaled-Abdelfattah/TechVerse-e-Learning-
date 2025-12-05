@@ -9,6 +9,11 @@ namespace TechVerse.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
+        {
+            options.UseSqlServer("Data Source=localhost\\MSSQLSERVERS;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Application Name=\"SQL Server Management Studio\";Command Timeout=0");
+        }
+
         public DbSet<Student> Students { get; set; }
         public DbSet<Announcement> Announcements { get; set; }
         public DbSet<Course> Courses { get; set; }
