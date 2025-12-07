@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\khass\\source\\repos\\TechVerse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91E2FBBE-D05A-4B9E-A8EF-1990E119F4DF}|TechVerse\\TechVerse.csproj|c:\\users\\khass\\source\\repos\\techverse\\techverse\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91E2FBBE-D05A-4B9E-A8EF-1990E119F4DF}|TechVerse\\TechVerse.csproj|solutionrelative:techverse\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91E2FBBE-D05A-4B9E-A8EF-1990E119F4DF}|TechVerse\\TechVerse.csproj|c:\\users\\khass\\source\\repos\\techverse\\techverse\\models\\announcment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91E2FBBE-D05A-4B9E-A8EF-1990E119F4DF}|TechVerse\\TechVerse.csproj|solutionrelative:techverse\\models\\announcment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TechVerse\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TechVerse\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T09:14:28.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Announcment.cs",
+              "DocumentMoniker": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Announcment.cs",
+              "RelativeDocumentMoniker": "TechVerse\\Models\\Announcment.cs",
+              "ToolTip": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Announcment.cs",
+              "RelativeToolTip": "TechVerse\\Models\\Announcment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T09:13:26.324Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
