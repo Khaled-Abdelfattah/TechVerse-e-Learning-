@@ -17,11 +17,11 @@
 
         public int UserID { get; private set; }
 
-        public virtual Student Student { get; private set; }
+        public virtual Student? Student { get; private set; }
 
         public int CourseID { get; private set; }
 
-        public virtual Course Course { get; private set; }
+        public virtual Course? Course { get; private set; }
 
         protected Enrollment() { }
 

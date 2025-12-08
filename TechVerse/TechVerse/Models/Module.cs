@@ -3,13 +3,13 @@
     public abstract class Module
     {
         public int ModuleID { get; private set; }
-        public string Title { get; private set; }
+        public string? Title { get; private set; }
 
         public abstract string ModuleType { get; }
 
         public int CourseID { get; private set; }
 
-        public virtual Course Course { get; private set; }
+        public virtual Course? Course { get; private set; }
 
         protected Module() { }
 
@@ -27,7 +27,7 @@
 
     public class VideoModule : Module
     {
-        public string VideoUrl { get; private set; }
+        public string? VideoUrl { get; private set; }
 
         public override string ModuleType => "Video";
 
@@ -45,7 +45,7 @@
 
     public class TextModule : Module
     {
-        public string TextDescription { get; private set; }
+        public string? TextDescription { get; private set; }
         public override string ModuleType => "Text";
         protected TextModule() { }
         public TextModule(string title, int courseId, string textDescription)

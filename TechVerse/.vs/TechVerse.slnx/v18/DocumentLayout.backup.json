@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\khass\\source\\repos\\TechVerse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Migrations\\20251208133249_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TechVerse\\Migrations\\20251208133249_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|c:\\users\\khass\\source\\repos\\techverse\\techverse\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|solutionrelative:techverse\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|c:\\users\\khass\\source\\repos\\techverse\\techverse\\utilities\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|solutionrelative:techverse\\utilities\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|c:\\users\\khass\\source\\repos\\techverse\\techverse\\models\\submission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|solutionrelative:techverse\\models\\submission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|c:\\users\\khass\\source\\repos\\techverse\\techverse\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|solutionrelative:techverse\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|c:\\users\\khass\\source\\repos\\techverse\\techverse\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|solutionrelative:techverse\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|c:\\users\\khass\\source\\repos\\techverse\\techverse\\models\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|solutionrelative:techverse\\models\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|c:\\users\\khass\\source\\repos\\techverse\\techverse\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|solutionrelative:techverse\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|c:\\users\\khass\\source\\repos\\techverse\\techverse\\models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|solutionrelative:techverse\\models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|c:\\users\\khass\\source\\repos\\techverse\\techverse\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|solutionrelative:techverse\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|c:\\users\\khass\\source\\repos\\techverse\\techverse\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|solutionrelative:techverse\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|c:\\users\\khass\\source\\repos\\techverse\\techverse\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|solutionrelative:techverse\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|c:\\users\\khass\\source\\repos\\techverse\\techverse\\models\\announcment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C800F915-8C48-BB27-A93E-0F93BAAFAC2B}|TechVerse\\TechVerse.csproj|solutionrelative:techverse\\models\\announcment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +55,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20251208133249_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Migrations\\20251208133249_InitialCreate.cs",
-              "RelativeDocumentMoniker": "TechVerse\\Migrations\\20251208133249_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Migrations\\20251208133249_InitialCreate.cs",
-              "RelativeToolTip": "TechVerse\\Migrations\\20251208133249_InitialCreate.cs",
-              "ViewState": "AgIAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Submission.cs",
+              "DocumentMoniker": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Submission.cs",
+              "RelativeDocumentMoniker": "TechVerse\\Models\\Submission.cs",
+              "ToolTip": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Submission.cs",
+              "RelativeToolTip": "TechVerse\\Models\\Submission.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAzwCEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T13:32:49.199Z",
+              "WhenOpened": "2025-12-08T14:21:16.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "TechVerse\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "TechVerse\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAwwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T12:57:19.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Utilities\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "TechVerse\\Utilities\\PasswordHasher.cs",
-              "ToolTip": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Utilities\\PasswordHasher.cs",
-              "RelativeToolTip": "TechVerse\\Utilities\\PasswordHasher.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T12:56:12.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Student.cs",
               "RelativeDocumentMoniker": "TechVerse\\Models\\Student.cs",
               "ToolTip": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Student.cs",
               "RelativeToolTip": "TechVerse\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T10:49:58.747Z",
+              "WhenOpened": "2025-12-08T14:21:04.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Module.cs",
+              "DocumentMoniker": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Module.cs",
+              "RelativeDocumentMoniker": "TechVerse\\Models\\Module.cs",
+              "ToolTip": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Module.cs",
+              "RelativeToolTip": "TechVerse\\Models\\Module.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T14:20:01.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Exam.cs",
+              "DocumentMoniker": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Exam.cs",
+              "RelativeDocumentMoniker": "TechVerse\\Models\\Exam.cs",
+              "ToolTip": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Exam.cs",
+              "RelativeToolTip": "TechVerse\\Models\\Exam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T14:19:44.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "TechVerse\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "TechVerse\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T14:19:39.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "TechVerse\\Models\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Enrollment.cs",
+              "RelativeToolTip": "TechVerse\\Models\\Enrollment.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T14:19:06.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "TechVerse\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Course.cs",
+              "RelativeToolTip": "TechVerse\\Models\\Course.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T14:18:44.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Announcment.cs",
+              "DocumentMoniker": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Announcment.cs",
+              "RelativeDocumentMoniker": "TechVerse\\Models\\Announcment.cs",
+              "ToolTip": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Announcment.cs",
+              "RelativeToolTip": "TechVerse\\Models\\Announcment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T14:18:17.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "TechVerse\\Models\\Login.cs",
+              "ToolTip": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Login.cs",
+              "RelativeToolTip": "TechVerse\\Models\\Login.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:55:09.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Register.cs",
+              "RelativeDocumentMoniker": "TechVerse\\Models\\Register.cs",
+              "ToolTip": "C:\\Users\\khass\\source\\repos\\TechVerse\\TechVerse\\Models\\Register.cs",
+              "RelativeToolTip": "TechVerse\\Models\\Register.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:53:32.601Z",
               "EditorCaption": ""
             }
           ]

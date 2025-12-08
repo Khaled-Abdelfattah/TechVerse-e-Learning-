@@ -3,8 +3,8 @@
     public class Announcement
     {
         public int AnnounceID { get; private set; }
-        public string Title { get; private set; }
-        public string Summary { get; private set; }
+        public string? Title { get; private set; }
+        public string? Summary { get; private set; }
         public DateTime PublishDate { get; private set; }
 
         protected Announcement() { }

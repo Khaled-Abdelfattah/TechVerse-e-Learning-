@@ -5,14 +5,14 @@
         public int SubmissionID { get; private set; }
         public DateTime SubmitDate { get; private set; }
         public float Grade { get; private set; }
-        public string Feedback { get; private set; }
-        public string FileUrl { get; private set; }
+        public string? Feedback { get; private set; }
+        public string? FileUrl { get; private set; }
 
         public int UserID { get; private set; }
-        public Student Student { get; private set; }
+        public Student? Student { get; private set; }
 
         public int ExamID { get; private set; }
-        public Exam Exam { get; private set; }
+        public Exam? Exam { get; private set; }
 
         protected Submission() { }
 

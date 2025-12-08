@@ -7,13 +7,13 @@ namespace TechVerse.Models
     public class Student
     {
         public int UserID { get; private set; }
-        public string FullName { get; private set; }
-        public string Email { get; private set; }
-        public string Password { get; private set; }
+        public string? FullName { get; private set; }
+        public string? Email { get; private set; }
+        public string? Password { get; private set; }
 
         public int Age { get; private set; }
-        public string Country { get; private set; }
-        public string PhoneNumber { get; private set; }
+        public string? Country { get; private set; }
+        public string? PhoneNumber { get; private set; }
         public DateTime RegistrationDate { get; private set; }
         public int LearningHours { get; private set; }
         public int CertificatesCount { get; private set; }

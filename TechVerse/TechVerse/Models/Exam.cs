@@ -3,12 +3,12 @@
     public class Exam
     {
         public int ExamID { get; private set; }
-        public string Title { get; private set; }
+        public string? Title { get; private set; }
         public int TimeLimit { get; private set; } 
         public int TotalQuestions { get; private set; }
 
         public int CourseID { get; private set; }
-        public Course Course { get; private set; } 
+        public Course? Course { get; private set; } 
 
         protected Exam() { }
 
