@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using TechVerse.Utilities; 
 
 namespace TechVerse.Models
 {
@@ -16,6 +17,7 @@ namespace TechVerse.Models
         public DateTime RegistrationDate { get; private set; }
         public int LearningHours { get; private set; }
         public int CertificatesCount { get; private set; }
+
         public virtual ICollection<Enrollment> Enrollments { get; private set; } = new List<Enrollment>();
         public virtual ICollection<Submission> Submissions { get; private set; } = new List<Submission>();
 
@@ -30,7 +32,9 @@ namespace TechVerse.Models
 
             FullName = fullName;
             Email = email;
-            Password = password; 
+
+            Password = PasswordHasher.HashPassword(password);
+
             Age = age;
             Country = country;
             PhoneNumber = phoneNumber;
@@ -39,6 +43,7 @@ namespace TechVerse.Models
             LearningHours = 0;
             CertificatesCount = 0;
         }
+
         public void Enroll(Enrollment enrollment)
         {
             if (enrollment == null) throw new ArgumentNullException(nameof(enrollment));

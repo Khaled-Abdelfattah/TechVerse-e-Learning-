@@ -33,7 +33,33 @@ namespace TechVerse.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Student>().HasKey(s => s.UserID);
+            modelBuilder.Entity<Student>(entity =>
+            {
+                entity.HasKey(s => s.UserID);
+
+                entity.Property(s => s.FullName)
+                      .IsRequired()
+                      .HasMaxLength(100); 
+
+                entity.Property(s => s.Email)
+                      .IsRequired()
+                      .HasMaxLength(100);
+
+                entity.HasIndex(s => s.Email).IsUnique();
+
+                entity.Property(s => s.Password)
+                      .IsRequired()
+                      .HasMaxLength(255); 
+
+                entity.Property(s => s.Country)
+                      .IsRequired()
+                      .HasMaxLength(100);
+
+                entity.Property(s => s.PhoneNumber)
+                      .HasMaxLength(20);
+
+                entity.Property(s => s.Age).IsRequired();
+            });
 
             modelBuilder.Entity<Announcement>().HasKey(a => a.AnnounceID);
 
