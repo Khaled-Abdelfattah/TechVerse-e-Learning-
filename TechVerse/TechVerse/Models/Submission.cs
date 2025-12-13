@@ -30,5 +30,6 @@
             Grade = 0; 
             Feedback = "Pending Review";
         }
+        public string SubmitDateFormatted => SubmitDate.ToString("yyyy-MM-dd HH:mm:ss");    
     }
 }

@@ -27,7 +27,6 @@ namespace TechVerse.Data
         public DbSet<TextModule> TextModules { get; set; }
         public DbSet<Exam> Exams { get; set; }
         public DbSet<Submission> Submissions { get; set; }
-        public DbSet<Enrollment> Enrollments { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -70,21 +69,6 @@ namespace TechVerse.Data
             modelBuilder.Entity<Exam>().HasKey(e => e.ExamID);
 
             modelBuilder.Entity<Submission>().HasKey(s => s.SubmissionID);
-
-            modelBuilder.Entity<Enrollment>()
-                .HasKey(e => new { e.UserID, e.CourseID });
-
-            modelBuilder.Entity<Enrollment>()
-                .HasOne(e => e.Student)
-                .WithMany(s => s.Enrollments)
-                .HasForeignKey(e => e.UserID)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            modelBuilder.Entity<Enrollment>()
-                .HasOne(e => e.Course)
-                .WithMany(c => c.Enrollments)
-                .HasForeignKey(e => e.CourseID)
-                .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Submission>()
                 .HasOne(s => s.Student)

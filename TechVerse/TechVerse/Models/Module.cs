@@ -3,7 +3,7 @@
     public abstract class Module
     {
         public int ModuleID { get; private set; }
-        public string? Title { get; private set; }
+        public string Title { get; private set; }
 
         public abstract string ModuleType { get; }
 
@@ -11,7 +11,7 @@
 
         public virtual Course? Course { get; private set; }
 
-        protected Module() { }
+        protected Module() { Title = null!; }
 
         protected Module(string title, int courseId)
         {
@@ -27,11 +27,11 @@
 
     public class VideoModule : Module
     {
-        public string? VideoUrl { get; private set; }
+        public string VideoUrl { get; private set; }
 
         public override string ModuleType => "Video";
 
-        protected VideoModule() { }
+        protected VideoModule() { VideoUrl = null!; }
 
         public VideoModule(string title, int courseId, string videoUrl)
             : base(title, courseId)
@@ -45,9 +45,9 @@
 
     public class TextModule : Module
     {
-        public string? TextDescription { get; private set; }
+        public string TextDescription { get; private set; }
         public override string ModuleType => "Text";
-        protected TextModule() { }
+        protected TextModule() { TextDescription = null!; }
         public TextModule(string title, int courseId, string textDescription)
             : base(title, courseId)
         {

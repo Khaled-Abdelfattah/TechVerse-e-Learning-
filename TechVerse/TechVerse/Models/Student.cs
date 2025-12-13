@@ -6,11 +6,10 @@ namespace TechVerse.Models
 {
     public class Student
     {
-        public int UserID { get; private set; }
+        public int UserID { get; private set; }// Primary Key
         public string? FullName { get; private set; }
         public string? Email { get; private set; }
         public string? Password { get; private set; }
-
         public int Age { get; private set; }
         public string? Country { get; private set; }
         public string? PhoneNumber { get; private set; }
@@ -18,7 +17,6 @@ namespace TechVerse.Models
         public int LearningHours { get; private set; }
         public int CertificatesCount { get; private set; }
 
-        public virtual ICollection<Enrollment> Enrollments { get; private set; } = new List<Enrollment>();
         public virtual ICollection<Submission> Submissions { get; private set; } = new List<Submission>();
 
         protected Student() { }
@@ -43,11 +41,6 @@ namespace TechVerse.Models
             LearningHours = 0;
             CertificatesCount = 0;
         }
-
-        public void Enroll(Enrollment enrollment)
-        {
-            if (enrollment == null) throw new ArgumentNullException(nameof(enrollment));
-            Enrollments.Add(enrollment);
-        }
+        public string RegisterDateFormatted => RegistrationDate.ToString("yyyy-MM-dd HH:mm:ss");
     }
 }
